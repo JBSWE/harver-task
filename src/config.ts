@@ -11,6 +11,7 @@ dotEnvFlow.config({
 export enum ProcessEnv {
     logLevel = 'LOG_LEVEL',
     port = 'PORT',
+    catsBaseUrl = 'CATS_BASE_URL'
 }
 
 function parseNumber(value: string): number {
